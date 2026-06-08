@@ -8,7 +8,8 @@ export default {
     const router = useRouter(); const route = useRoute(); const token = ref(false)
     function aoLogar() { token.value = true; router.push({ name: 'home' }) }
     function sair() { token.value = false; router.push({ name: 'login' }) }
-    const menu = [{ nome: 'Inicio', rota: 'Inicio' }]
+    const menu = [{ nome: 'Inicio', rota: 'Inicio' },
+      { nome: 'Usuarios', rota: 'Usuarios' }]
     return { token, aoLogar, sair, menu, ativo: r => route.name === r }
   }
 }
