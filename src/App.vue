@@ -11,7 +11,8 @@ export default {
     const menu = [{ nome: 'Inicio', rota: 'Inicio' },
       { nome: 'Usuarios', rota: 'Usuarios' },
       { nome: 'Hospedes', rota: 'Hospedes' },
-      { nome: 'Anfitrioes', rota: 'Anfitrioes' }]
+      { nome: 'Anfitrioes', rota: 'Anfitrioes' },
+      { nome: 'Enderecos', rota: 'Enderecos' }]
     return { token, aoLogar, sair, menu, ativo: r => route.name === r }
   }
 }
