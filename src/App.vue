@@ -12,7 +12,8 @@ export default {
       { nome: 'Usuarios', rota: 'Usuarios' },
       { nome: 'Hospedes', rota: 'Hospedes' },
       { nome: 'Anfitrioes', rota: 'Anfitrioes' },
-      { nome: 'Enderecos', rota: 'Enderecos' }]
+      { nome: 'Enderecos', rota: 'Enderecos' },
+      { nome: 'Hospedagens', rota: 'Hospedagens' }]
     return { token, aoLogar, sair, menu, ativo: r => route.name === r }
   }
 }
