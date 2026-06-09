@@ -10,7 +10,8 @@ export default {
     function sair() { token.value = false; router.push({ name: 'login' }) }
     const menu = [{ nome: 'Inicio', rota: 'Inicio' },
       { nome: 'Usuarios', rota: 'Usuarios' },
-      { nome: 'Hospedes', rota: 'Hospedes' }]
+      { nome: 'Hospedes', rota: 'Hospedes' },
+      { nome: 'Anfitrioes', rota: 'Anfitrioes' }]
     return { token, aoLogar, sair, menu, ativo: r => route.name === r }
   }
 }
