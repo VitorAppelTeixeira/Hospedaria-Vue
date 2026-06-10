@@ -222,7 +222,7 @@ a {
 
 .sidebar-header {
   padding: 20px;
-  background-color: #4B7BE5;
+  background-color: #3B5BD5;
   color: #fff;
   text-align: center;
 }
@@ -252,9 +252,9 @@ a {
 
 .menu-item.ativo {
   background-color: #e8f0fe;
-  color: #4B7BE5;
+  color: #3B5BD5;
   font-weight: 600;
-  border-right: 3px solid #4B7BE5;
+  border-right: 3px solid #3B5BD5;
 }
 
 .sidebar-footer {
@@ -280,3 +280,7 @@ a {
   min-height: 100vh;
 }
 </style>
+
+/* custom scroll */
+.sidebar nav::-webkit-scrollbar{width:6px}
+.sidebar nav::-webkit-scrollbar-thumb{background:#c0c0c0;border-radius:3px}
