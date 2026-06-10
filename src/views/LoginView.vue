@@ -87,7 +87,7 @@ export default {
       </div>
     </div>
 
-    <input class="input" type="text" placeholder="Email ou usuario" v-model="username" autocomplete="off" />
+    <input class="input" type="text" placeholder="Usuario" v-model="username" autocomplete="off" />
 
     <input
       v-if="modoFormulario === 'cadastro'"
