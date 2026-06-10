@@ -16,7 +16,8 @@ export default {
       { nome: 'Hospedagens', rota: 'Hospedagens' },
       { nome: 'Reservas', rota: 'Reservas' },
       { nome: 'Pagamentos', rota: 'Pagamentos' },
-      { nome: 'Mensagens', rota: 'Mensagens' }]
+      { nome: 'Mensagens', rota: 'Mensagens' },
+      { nome: 'Avaliacoes', rota: 'Avaliacoes' }]
     return { token, aoLogar, sair, menu, ativo: r => route.name === r }
   }
 }
