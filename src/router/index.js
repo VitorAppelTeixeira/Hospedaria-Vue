@@ -28,6 +28,9 @@ import EditarMensagemView from '@/views/mensagens/EditarMensagemView.vue'
 import AvaliacoesView from '@/views/avaliacoes/AvaliacoesView.vue'
 import CriarAvaliacaoView from '@/views/avaliacoes/CriarAvaliacaoView.vue'
 import EditarAvaliacaoView from '@/views/avaliacoes/EditarAvaliacaoView.vue'
+import ComodidadesView from '@/views/comodidades/ComodidadesView.vue'
+import CriarComodidadeView from '@/views/comodidades/CriarComodidadeView.vue'
+import EditarComodidadeView from '@/views/comodidades/EditarComodidadeView.vue'
 const routes = [
   { path: '/', name: 'home', component: HomeView },
   { path: '/login', name: 'login', component: LoginView },
@@ -58,6 +61,9 @@ const routes = [
   { path: '/avaliacoes', name: 'Avaliacoes', component: AvaliacoesView },
   { path: '/avaliacoes/criar', name: 'CriarAvaliacao', component: CriarAvaliacaoView },
   { path: '/avaliacoes/:id/editar', name: 'EditarAvaliacao', component: EditarAvaliacaoView },
+  { path: '/comodidades', name: 'Comodidades', component: ComodidadesView },
+  { path: '/comodidades/criar', name: 'CriarComodidade', component: CriarComodidadeView },
+  { path: '/comodidades/:id/editar', name: 'EditarComodidade', component: EditarComodidadeView },
 ]
 const router = createRouter({ history: createWebHistory(import.meta.env.BASE_URL), routes })
 export default router
